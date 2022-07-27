@@ -5,6 +5,7 @@ Flask
 ajax콜을 통해 mongodb에 저장
 
 ##mongodbprac
+
 -----------------------------------
 ```mongodbprac.py
 
