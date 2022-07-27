@@ -41,7 +41,8 @@ http://43.200.191.229/buc
 
 
 
-#project_bucket
+# project/bucket
+
 ```app.py
 @app.route("/bucket", methods=["POST"])  
 def bucket_post():  
@@ -61,6 +62,7 @@ def bucket_post():
     return jsonify({'msg': '등록 완료!'})
  ...
 ```
+
 num API에 count = len(bucket_list)+1 하여 num을 고유넘버로 넣어주고
 
 ```bucket.html
@@ -78,10 +80,13 @@ function show_bucket() {
  ...
  }
 ```
+
 (done == 0) 미완료상태 일때
+
 완료버튼을 보여주고 고유 넘버마다 버튼을 부여하여 완료 취소를 관리한다.
 
-# project_Moive
+# project/moive
+
 크롤링을 위한 **BeautifulSoup**,  사용
 
 네이버 영화 https://movie.naver.com/ 에서 영화 url을 끌어다 넣으면
