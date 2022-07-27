@@ -6,7 +6,6 @@ ajax콜을 통해 mongodb에 저장
 
 ## mongodbprac
 
------------------------------------
 ```mongodbprac.py
 
 from pymongo import MongoClient
@@ -30,7 +29,6 @@ db.users.update_one({'name':'bobby'},{'$set':{'age':19}})
 db.users.delete_one({'name':'bobby'})
 
 ```
------------------------------------
 
 # bucket
 ```app.py
