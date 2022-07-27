@@ -30,7 +30,18 @@ db.users.delete_one({'name':'bobby'})
 
 ```
 
-# bucket
+# AWS EC2를 이용해 웹서버 작동하기.
+
+(FileZilla로 파일을 넣어주었다.)
+
+http://43.200.191.229/buc
+
+위 사이트에 가보면 project/bucket 을 사용 할 수 있음.
+
+
+
+
+#project_bucket
 ```app.py
 @app.route("/bucket", methods=["POST"])  
 def bucket_post():  
@@ -70,7 +81,7 @@ function show_bucket() {
 (done == 0) 미완료상태 일때
 완료버튼을 보여주고 고유 넘버마다 버튼을 부여하여 완료 취소를 관리한다.
 
-# Moive
+# project_Moive
 크롤링을 위한 **BeautifulSoup**,  사용
 
 네이버 영화 https://movie.naver.com/ 에서 영화 url을 끌어다 넣으면
